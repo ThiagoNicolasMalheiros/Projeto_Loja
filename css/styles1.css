@@ -1,0 +1,75 @@
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+h1{
+color: rgb(14, 230, 14);
+    font-size: 150px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:  
+      1px -1px 0 #2f5d87, 
+      2px -2px 0 #2e5a83, 
+      3px -3px 0 #2d5880, 
+      4px -4px 0 #2b557c, 
+      5px -5px 0 #2a5378, 
+      6px -6px 0 #295074, 
+      7px -7px 0 #274d71, 
+      8px -8px 0 #264b6d, 
+      9px -9px 0 #254869, 
+      10px -10px 0 #234665, 
+      11px -11px 0 #224361, 
+      12px -12px 0 #21405e, 
+      13px -13px 12px rgba(0, 0, 0, 0.55), 
+      13px -13px 1px rgba(0, 0, 0, 0.5);
+}
+p{
+    color: rgb(14, 230, 14);
+    font-size: 150px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:  
+      1px -1px 0 #2f5d87, 
+      2px -2px 0 #2e5a83, 
+      3px -3px 0 #2d5880, 
+      4px -4px 0 #2b557c, 
+      5px -5px 0 #2a5378, 
+      6px -6px 0 #295074, 
+      7px -7px 0 #274d71, 
+      8px -8px 0 #264b6d, 
+      9px -9px 0 #254869, 
+      10px -10px 0 #234665, 
+      11px -11px 0 #224361, 
+      12px -12px 0 #21405e, 
+      13px -13px 12px rgba(0, 0, 0, 0.55), 
+      13px -13px 1px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    opacity: 100%;
+}
+body{
+    background-image:url(fundo2.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+img{
+    opacity: 0.5;
+}
+img:hover {
+    opacity: 3.0;
+}
